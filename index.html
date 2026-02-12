@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Logofessional | Reptile Brand Identity</title>
+
+<style>
+body {
+  margin:0;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align:center;
+
+  /* Snake Scale Texture Background */
+  background:
+    radial-gradient(circle at 25% 25%, rgba(255,255,255,0.02) 1px, transparent 1px),
+    radial-gradient(circle at 75% 75%, rgba(255,255,255,0.02) 1px, transparent 1px),
+    #0f172a;
+  background-size: 40px 40px;
+
+  color:#f8fafc;
+}
+
+.container {
+  max-width:1100px;
+  margin:auto;
+  padding:60px 20px;
+}
+
+.logo {
+  width:100px;
+  margin-bottom:25px;
+}
+
+h1 {
+  font-size:32px;
+  margin-bottom:15px;
+  letter-spacing:1px;
+}
+
+.subtitle {
+  color:#94a3b8;
+  margin-bottom:40px;
+  font-size:16px;
+}
+
+.button {
+  display:inline-block;
+  padding:14px 26px;
+  margin:10px;
+  background:#0284c7;
+  color:white;
+  text-decoration:none;
+  border-radius:8px;
+  font-weight:bold;
+  transition:0.3s;
+}
+
+.button:hover {
+  background:#0369a1;
+}
+
+/* 🔥 Animated Glowing Divider */
+
+.minimal-divider {
+  width:100px;
+  height:3px;
+  margin:70px auto 50px auto;
+  background:#38bdf8;
+  border-radius:3px;
+  opacity:0;
+  animation: fadeInDivider 1.2s ease forwards;
+  animation-delay:0.5s;
+  box-shadow:
+    0 0 8px rgba(56,189,248,0.6),
+    0 0 18px rgba(56,189,248,0.4);
+}
+
+@keyframes fadeInDivider {
+  from {
+    opacity:0;
+    transform:translateY(20px);
+  }
+  to {
+    opacity:1;
+    transform:translateY(0);
+  }
+}
+
+/* Bold Breeder Section */
+
+.work-section {
+  margin-top:40px;
+  margin-bottom:60px;
+}
+
+.work-title {
+  font-size:36px;
+  font-weight:900;
+  letter-spacing:1px;
+  text-transform:uppercase;
+  color:#38bdf8;
+  margin-bottom:20px;
+}
+
+.work-subtitle {
+  font-size:18px;
+  color:#e2e8f0;
+  max-width:750px;
+  margin:0 auto;
+}
+
+/* Portfolio Grid */
+
+.portfolio {
+  display:grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap:30px;
+  margin-top:60px;
+}
+
+.portfolio img {
+  width:100%;
+  border-radius:14px;
+  transition:0.4s;
+  box-shadow:0 20px 45px rgba(0,0,0,0.5);
+  border:2px solid transparent;
+}
+
+.portfolio img:hover {
+  transform:scale(1.07);
+  border:2px solid #38bdf8;
+}
+
+/* Instagram CTA */
+
+.instagram-cta {
+  margin-top:100px;
+  padding:60px 20px;
+  background:linear-gradient(135deg, #0284c7, #0ea5e9);
+  border-radius:20px;
+  box-shadow:0 25px 60px rgba(0,0,0,0.6);
+}
+
+.instagram-cta .arrow {
+  font-size:28px;
+  margin-bottom:15px;
+  animation: bounce 1.5s infinite;
+}
+
+.instagram-cta h3 {
+  font-size:22px;
+  font-weight:900;
+  letter-spacing:1px;
+  text-transform:uppercase;
+  margin-bottom:15px;
+  color:#ffffff;
+}
+
+.instagram-cta p {
+  font-size:15px;
+  color:#e2e8f0;
+  margin-bottom:25px;
+}
+
+/* Copy Section */
+
+.copy-wrapper {
+  margin:20px 0 25px 0;
+}
+
+.username {
+  font-size:20px;
+  font-weight:900;
+  letter-spacing:1px;
+  margin-right:15px;
+  background:#0f172a;
+  padding:10px 16px;
+  border-radius:10px;
+  display:inline-block;
+}
+
+.copy-btn {
+  padding:10px 16px;
+  font-weight:bold;
+  border:none;
+  border-radius:10px;
+  background:#ffffff;
+  color:#0f172a;
+  cursor:pointer;
+  transition:0.3s;
+}
+
+.copy-btn:hover {
+  background:#e2e8f0;
+}
+
+.insta-button {
+  display:inline-block;
+  padding:14px 28px;
+  background:#0f172a;
+  color:#ffffff;
+  text-decoration:none;
+  border-radius:8px;
+  font-weight:bold;
+  transition:0.3s;
+}
+
+.insta-button:hover {
+  background:#020617;
+}
+
+@keyframes bounce {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(8px); }
+}
+
+.footer {
+  margin-top:90px;
+  color:#64748b;
+  font-size:14px;
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+<img src="https://res.cloudinary.com/di1cy2nco/image/upload/v1770759607/Logo-PNG.png-240x240px_ic7gki.png" class="logo">
+
+<h1>Reptile Brand Identity Studio</h1>
+<p class="subtitle">
+Specialized logo design for serious reptile breeders & exotic businesses.
+</p>
+
+<a href="https://www.instagram.com/logofessional/" class="button">
+Explore Full Portfolio
+</a>
+
+<a href="mailto:Logofessional.123@gmail.com" class="button">
+Start Your Project
+</a>
+
+<div class="minimal-divider"></div>
+
+<div class="work-section">
+  <h2 class="work-title">
+    Built for Breeders Who Mean Business
+  </h2>
+  <p class="work-subtitle">
+    Premium reptile logos designed to dominate expos, online stores, and breeding projects worldwide.
+  </p>
+</div>
+
+<div class="portfolio">
+  <img src="https://res.cloudinary.com/di1cy2nco/image/upload/v1770894263/Final-MONTY-PYTHON-NEW-SNAKE1200x800_xircab.png">
+  <img src="https://res.cloudinary.com/di1cy2nco/image/upload/v1770894564/Snakes-only-png-1200x1050_yynwsk.png">
+  <img src="https://res.cloudinary.com/di1cy2nco/image/upload/v1770894389/Dragons-Down-Under-800x800_vifejo.png">
+  <img src="https://res.cloudinary.com/di1cy2nco/image/upload/v1770894263/02-1200x1073_cvz64i.png">
+  <img src="https://res.cloudinary.com/di1cy2nco/image/upload/v1770894743/POM1200x1200_irhlrt.png">
+  <img src="https://res.cloudinary.com/di1cy2nco/image/upload/v1770895424/Ginger-Morphs-final-800x800_lfjspc.png">
+</div>
+
+<!-- Instagram CTA -->
+<div class="instagram-cta">
+
+  <div class="arrow">⬇⬇⬇</div>
+
+  <h3>SEARCH “@LOGOFESSIONAL” ON INSTAGRAM</h3>
+
+  <p>
+    See more morph logos, breeder branding & reptile identity projects.
+  </p>
+
+  <div class="copy-wrapper">
+    <span class="username">@logofessional</span>
+    <button onclick="copyUsername(this)" class="copy-btn">Copy</button>
+  </div>
+
+  <a href="https://www.instagram.com/logofessional/" class="insta-button">
+    Or Visit Instagram →
+  </a>
+
+</div>
+
+<div class="footer">
+© 2026 Logofessional — Reptile Logo Specialist
+</div>
+
+</div>
+
+<script>
+function copyUsername(button) {
+  const text = "@logofessional";
+  navigator.clipboard.writeText(text).then(function() {
+    button.innerText = "Copied ✓";
+    setTimeout(function(){
+      button.innerText = "Copy";
+    }, 2000);
+  });
+}
+</script>
+
+</body>
+</html>
